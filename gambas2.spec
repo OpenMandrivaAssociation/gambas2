@@ -61,7 +61,7 @@ build RPMs of your apps automatically, and so on...
 
 %build
 # needed by patch0
-pusdhd gb.pdf
+pushd gb.pdf
 autoreconf -fi
 popd
 
