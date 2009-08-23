@@ -10,7 +10,7 @@ License: GPLv2+
 Group: Development/Other
 URL: http://gambas.sourceforge.net/
 Source0: http://ovh.dl.sourceforge.net/sourceforge/gambas/%{name}-%version.tar.bz2
-Patch0: gambas2-2.15.2-poppler-0.11.7.patch
+Patch0: gambas2-2.15.2-poppler-0.11.3.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: bzip2-devel
 BuildRequires: firebird-devel
@@ -57,11 +57,14 @@ build RPMs of your apps automatically, and so on...
 
 %prep
 %setup -q -n %{name}-%version
-%if %mdkversion >= 201000
 %patch0 -p0
-%endif
 
 %build
+# needed by patch0
+pusdhd gb.pdf
+autoreconf -fi
+popd
+
 %configure2_5x \
 	--disable-corba --disable-qte
 %make
