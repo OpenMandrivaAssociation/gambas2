@@ -61,9 +61,7 @@ build RPMs of your apps automatically, and so on...
 
 %build
 # needed by patch0
-pushd gb.pdf
 autoreconf -fi
-popd
 
 %configure2_5x \
 	--disable-corba --disable-qte
