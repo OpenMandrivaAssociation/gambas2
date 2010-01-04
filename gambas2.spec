@@ -1,5 +1,5 @@
 %define name gambas2
-%define version 2.18.0
+%define version 2.19.0
 %define release %mkrel 1
 
 Name: %{name}
