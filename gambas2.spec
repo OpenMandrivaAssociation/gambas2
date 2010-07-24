@@ -196,6 +196,7 @@ in Gambas.
 %defattr(-, root, root, 0755)
 %{_bindir}/gbs2
 %{_bindir}/gbs2.gambas
+%{_bindir}/gbw2
 %{_datadir}/%{name}/icons/application-x-gambasscript.png
 %{_datadir}/%{name}/icons/application-x-gambasserverpage.png
 %{_datadir}/mime/packages/application-x-gambasscript.xml
