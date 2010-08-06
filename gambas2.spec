@@ -44,6 +44,7 @@ BuildRequires: SDL_mixer-devel
 BuildRequires: acl-devel
 BuildRequires: imagemagick
 BuildRequires: ffi-devel
+BuildRequires: gpm-devel
 
 Obsoletes: gambas < 2.0.0
 
