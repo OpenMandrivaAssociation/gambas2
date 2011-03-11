@@ -60,6 +60,16 @@ build RPMs of your apps automatically, and so on...
 %setup -q -n %{name}-%version
 
 %build
+%setup_compile_flags
+for i in `find -name ltmain.sh`
+do
+	(
+	  pushd `dirname $i`
+	  %before_configure
+	  popd
+	)
+done
+
 %configure2_5x \
 	--disable-corba --disable-qte
 %make
