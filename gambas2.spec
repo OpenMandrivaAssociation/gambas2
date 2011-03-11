@@ -159,7 +159,6 @@ This package includes the Gambas interpreter needed to run Gambas applications.
 %{_datadir}/%{name}/info/gb.list
 %{_datadir}/%{name}/info/gb.debug.*
 %{_datadir}/%{name}/info/gb.eval.*
-%{_datadir}/%{name}/icons/application-x-gambas.png
 %{_datadir}/mime/packages/application-x-gambas.xml
 %{_iconsdir}/hicolor/*/mimetypes/application-x-gambas.png
 
