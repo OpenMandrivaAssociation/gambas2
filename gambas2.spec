@@ -45,6 +45,7 @@ BuildRequires: acl-devel
 BuildRequires: imagemagick
 BuildRequires: ffi-devel
 BuildRequires: gpm-devel
+BuildRequires: libxtst-devel
 
 Obsoletes: gambas < 2.0.0
 
