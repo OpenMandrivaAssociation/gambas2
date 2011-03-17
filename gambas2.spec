@@ -1,6 +1,6 @@
 %define name gambas2
 %define version 2.22.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name: %{name}
 Summary: Complete IDE based on a BASIC interpreter with object extensions
