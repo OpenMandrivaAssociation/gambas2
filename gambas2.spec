@@ -44,7 +44,7 @@ BuildRequires: postgresql-devel
 BuildRequires: SDL_mixer-devel
 BuildRequires: acl-devel
 BuildRequires: imagemagick
-BuildRequires: ffi-devel
+BuildRequires: libffi-devel
 BuildRequires: gpm-devel
 BuildRequires: libxtst-devel
 BuildRequires: libv4l-devel
