@@ -11,6 +11,7 @@ Group: Development/Other
 URL: http://gambas.sourceforge.net/
 Source0: http://ovh.dl.sourceforge.net/sourceforge/gambas/%{name}-%version.tar.bz2
 Patch0: gambas2-2.23.0-kernel-2.6.38.patch
+Patch1: gambas2-2.23.0-flags.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: bzip2-devel
 BuildRequires: firebird-devel
@@ -18,6 +19,7 @@ BuildRequires: libunixODBC-devel
 BuildRequires: libsqlite-devel
 BuildRequires: libsqlite3-devel
 BuildRequires: gtk+2-devel
+BuildRequires: librsvg-devel
 BuildRequires: libmesagl-devel
 BuildRequires: libmesaglu-devel
 BuildRequires: libpcre-devel
@@ -61,6 +63,7 @@ build RPMs of your apps automatically, and so on...
 %prep
 %setup -q -n %{name}-%version
 %patch0 -p0
+%patch1 -p0
 
 %build
 ./reconf-all
