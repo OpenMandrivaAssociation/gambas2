@@ -67,7 +67,6 @@ build RPMs of your apps automatically, and so on...
 
 %build
 ./reconf-all
-export CFLAGS="%optflags -fpermissive"
 export CXXFLAGS="%optflags -fpermissive"
 %setup_compile_flags
 for i in `find -name ltmain.sh`
