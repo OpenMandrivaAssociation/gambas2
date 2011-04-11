@@ -63,7 +63,9 @@ build RPMs of your apps automatically, and so on...
 
 %prep
 %setup -q -n %{name}-%version
+%if %mdkversion >= 201100
 %patch0 -p0
+%endif
 %patch1 -p0
 
 %build
