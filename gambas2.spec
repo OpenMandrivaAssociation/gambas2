@@ -26,6 +26,7 @@ BuildRequires: libpcre-devel
 BuildRequires: libSDL_image-devel
 BuildRequires: libSDL_gfx-devel
 BuildRequires: libSDL_ttf-devel
+BuildRequires: libstdc++-static-devel
 BuildRequires: nas-devel
 BuildRequires: libjpeg-devel
 BuildRequires: libpng-devel
