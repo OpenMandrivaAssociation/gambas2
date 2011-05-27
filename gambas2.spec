@@ -10,7 +10,6 @@ License: GPLv2+
 Group: Development/Other
 URL: http://gambas.sourceforge.net/
 Source0: http://ovh.dl.sourceforge.net/sourceforge/gambas/%{name}-%version.tar.bz2
-Patch0: gambas2-2.23.0-kernel-2.6.38.patch
 Patch1: gambas2-2.23.0-flags.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: bzip2-devel
@@ -63,9 +62,6 @@ build RPMs of your apps automatically, and so on...
 
 %prep
 %setup -q -n %{name}-%version
-%if %mdkversion >= 201100
-%patch0 -p0
-%endif
 %patch1 -p0
 
 %build
