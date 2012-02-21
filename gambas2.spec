@@ -14,7 +14,7 @@ Patch1: gambas2-2.23.0-flags.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: bzip2-devel
 BuildRequires: firebird-devel
-BuildRequires: libunixODBC-devel
+BuildRequires: unixODBC-devel
 BuildRequires: libsqlite-devel
 BuildRequires: libsqlite3-devel
 BuildRequires: gtk+2-devel
