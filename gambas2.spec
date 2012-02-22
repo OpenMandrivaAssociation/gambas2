@@ -16,7 +16,7 @@ BuildRequires: bzip2-devel
 BuildRequires: firebird-devel
 BuildRequires: unixODBC-devel
 BuildRequires: libsqlite-devel
-BuildRequires: libsqlite3-devel
+BuildRequires: sqlite3-devel
 BuildRequires: gtk+2-devel
 BuildRequires: librsvg-devel
 BuildRequires: libmesagl-devel
