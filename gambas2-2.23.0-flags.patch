@@ -1,0 +1,12 @@
+--- acinclude.m4.flags	2011-04-10 20:02:08.000000000 +0200
++++ acinclude.m4	2011-04-10 20:03:00.000000000 +0200
+@@ -241,9 +241,6 @@
+     AM_CXXFLAGS="$AM_CXXFLAGS -O0"
+   fi
+ 
+-  CFLAGS=""
+-  CXXFLAGS=""
+-  
+   AC_SUBST(AM_CFLAGS)
+   AC_SUBST(AM_CFLAGS_OPT)
+   AC_SUBST(AM_CXXFLAGS)
