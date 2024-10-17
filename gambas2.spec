@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 License: GPLv2+
 Group: Development/Other
-URL: http://gambas.sourceforge.net/
+URL: https://gambas.sourceforge.net/
 Source0: http://ovh.dl.sourceforge.net/sourceforge/gambas/%{name}-%version.tar.bz2
 Patch1: gambas2-2.23.0-flags.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
